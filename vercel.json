@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/orbcomm-technical-seo-demo/:path*",
+      "destination": "/:path*"
+    }
+  ]
+}
